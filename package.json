@@ -1,0 +1,31 @@
+{
+  "name": "css-tree",
+  "version": "0.0.1",
+  "description": "Console.log the CSS tree hierarchy of a page or from a particular node in page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityatj/css-tree.git"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "node",
+    "tree",
+    "hierarchy",
+    "linux",
+    "npm"
+  ],
+  "author": "adityatj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adityatj/css-tree/issues"
+  },
+  "homepage": "https://github.com/adityatj/css-tree#readme"
+}
