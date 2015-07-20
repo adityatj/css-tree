@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "Print the DOM class tree hierarchy of a page.",
   "main": "index.js",
+  "bin": {
+    "dom-class-tree": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adityatj/dom-class-tree.git"
+    "url": "https://github.com/adityatj/dom-class-tree.git"
   },
   "dependencies": {
     "cheerio": "latest",
@@ -24,9 +27,6 @@
     "linux",
     "npm"
   ],
-  "bin": {
-    "dom-class-tree": "index.js"
-  },
   "author": "adityatj",
   "license": "MIT",
   "bugs": {
