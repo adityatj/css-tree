@@ -1,17 +1,19 @@
 {
-  "name": "css-tree",
+  "name": "dom-class-tree",
   "version": "0.0.1",
-  "description": "Console.log the CSS tree hierarchy of a page or from a particular node in page.",
+  "description": "Print the DOM class tree hierarchy of a page.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adityatj/css-tree.git"
+    "url": "git+https://github.com/adityatj/dom-class-tree.git"
   },
   "dependencies": {
-    "jquery": "latest"
+    "cheerio": "latest",
+    "optparse": "latest",
+    "request": "latest"
   },
   "keywords": [
     "css",
@@ -22,10 +24,13 @@
     "linux",
     "npm"
   ],
+  "bin": {
+    "dom-class-tree": "index.js"
+  },
   "author": "adityatj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adityatj/css-tree/issues"
+    "url": "https://github.com/adityatj/dom-class-tree/issues"
   },
-  "homepage": "https://github.com/adityatj/css-tree#readme"
+  "homepage": "https://github.com/adityatj/dom-class-tree#readme"
 }
